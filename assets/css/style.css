@@ -14,7 +14,8 @@ body {
 /* --------------------------------------------------------- Header ----------------------------------------------------------- */
 
 header {
-    background-color: #afb9af; /* Light gray background */
+    background-color: #afb9af;
+    /* Light gray background */
     padding: 20px;
 }
 
@@ -25,40 +26,31 @@ header {
 
 .header-logo {
     display: flex;
-    align-items: center;   
+    align-items: center;
     gap: 20px;
     margin-bottom: 10px;
 }
 
 .header-logo img {
-    max-width: 180px; /* Adjust logo size */
+    max-width: 180px;
+    /* Adjust logo size */
     max-height: 180px;
-}
-
-.header-top-right {
-    display: flex;
-    justify-content: flex-end;
-    gap: 20px;
-    margin-bottom: 10px; /* Space below top-right buttons */
-}
-
-.header-top-right a {
-    text-decoration: none;
-    color: #333; /* Dark text */
-    font-size: 14px;
 }
 
 .header-banking {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 4px; /* Space below banking buttons */
+    margin-bottom: 4px;
+    /* Space below banking buttons */
     padding-top: 4px;
-    border-top: 1px solid #ccc; /* Separator line */
+    border-top: 1px solid #ccc;
+    /* Separator line */
 }
 
 .header-banking a {
     text-decoration: none;
-    color: #3a424b; /* Blue text */
+    color: #3a424b;
+    /* Blue text */
     font-size: 16px;
     font-weight: bold;
 }
@@ -68,12 +60,14 @@ header {
     justify-content: space-around;
     align-items: center;
     padding-top: 4px;
-    border-top: 1px solid #ccc; /* Separator line */
+    border-top: 1px solid #ccc;
+    /* Separator line */
 }
 
 .header-bottom a {
     text-decoration: none;
-    color: #333; /* Dark text */
+    color: #333;
+    /* Dark text */
     font-size: 14px;
 }
 
@@ -87,17 +81,22 @@ header {
 
 /* Responsive design for tablets and mobile devices */
 @media (max-width: 768px) {
-    .header-top-right, .header-banking, .header-bottom {
+
+    .header-top-right,
+    .header-banking,
+    .header-bottom {
         flex-direction: column;
         align-items: center;
     }
 
     .header-top-right a {
-        margin: 5px 0; /* Space between links for mobile view */
+        margin: 5px 0;
+        /* Space between links for mobile view */
     }
 
     .header-bottom input[type="text"] {
         width: 100%;
-        max-width: 100%; /* Full width on small screens */
+        max-width: 100%;
+        /* Full width on small screens */
     }
 }
