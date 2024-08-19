@@ -82,7 +82,6 @@ header {
 /* Responsive design for tablets and mobile devices */
 @media (max-width: 768px) {
 
-    .header-top-right,
     .header-banking,
     .header-bottom {
         flex-direction: column;
