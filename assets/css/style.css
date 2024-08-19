@@ -59,7 +59,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-top: 4px;
+    padding-top: 10px;
     border-top: 1px solid #ccc;
     /* Separator line */
 }
@@ -77,6 +77,129 @@ header {
     font-size: 14px;
     border: 1px solid #ccc;
     border-radius: 4px;
+}
+
+/* Adding lines between buttons */
+.header-container a:not(:last-child) {
+    border-right: 1px solid #ccc; /* Line color and thickness */
+}
+
+/* Optional: Adjust line height */
+.header-container a {
+    line-height: 1.5; /* Adjust as needed */
+}
+
+/* Optional: Padding to create space for the lines */
+.header-container a {
+    margin-right: 10px; /* Space after each link */
+}
+
+/* For a more modern look: Adding some hover effects */
+.header-container a:hover {
+    color: #007BFF; /* Change text color on hover */
+    border-right-color: #007BFF; /* Change line color on hover */
+}
+
+/* Image container */
+
+.image-container {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    /* Adjust max-width as needed */
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+/* Quote overlay */
+.quote-overlay {
+    position: absolute;
+    top: 50%;
+    /* Center vertically */
+    left: 50%;
+    /* Center horizontally */
+    transform: translate(-50%, -50%);
+    color: white;
+    /* Text color */
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 8px;
+    /* Rounded corners */
+}
+
+.quote-overlay p {
+    margin: 0;
+    font-size: 24px;
+    /* Adjust text size */
+    font-style: italic;
+    /* Italicize the quote */
+    line-height: 1.5;
+}
+
+/* Content below the image */
+.content {
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+/* Card Feature Styling */
+.card-feature {
+    position: absolute;
+    top: 250px;
+    /* Position from the top of the image */
+    right: 20px;
+    /* Position from the right edge */
+    background-color: rgb(100, 100, 73);
+
+    /* Yellow background */
+    padding: 15px;
+    border-radius: 8px;
+    /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+    align-items: center;
+}
+
+.card-feature ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.card-feature li {
+    margin-bottom: 10px;
+    align-items: center;
+    /* Space between items */
+}
+
+.card-feature li.per-annum {
+    align-items: center;
+    color: rgb(17, 31, 31);
+}
+
+.card-feature li:last-child {
+    margin-bottom: 0;
+}
+
+.card-feature a {
+    color: rgb(10, 10, 84);
+    /* Blue text */
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: flex-end;
+}
+
+.card-feature a:hover {
+    text-decoration: underline;
+    /* Underline on hover */
 }
 
 /* Responsive design for tablets and mobile devices */
