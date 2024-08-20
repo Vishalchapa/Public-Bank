@@ -49,7 +49,7 @@ header {
 
 .header-banking a {
     text-decoration: none;
-    color: #3a424b;
+    color: #464545;
     /* Blue text */
     font-size: 16px;
     font-weight: bold;
@@ -66,9 +66,11 @@ header {
 
 .header-bottom a {
     text-decoration: none;
-    color: #333;
+    color: #464545;
     /* Dark text */
     font-size: 14px;
+    font-weight: bold;
+    ;
 }
 
 .header-bottom input[type="text"] {
@@ -79,7 +81,8 @@ header {
     border-radius: 4px;
 }
 
-/* Adding lines between buttons */
+/* -------------------------------------------- Adding lines between buttons --------------------------------------------- */
+
 .header-container a:not(:last-child) {
     border-right: 1px solid #ccc;
     /* Line color and thickness */
@@ -91,21 +94,24 @@ header {
     /* Adjust as needed */
 }
 
-/* Optional: Padding to create space for the lines */
+/* ------------------------------------- Optional: Padding to create space for the lines  -------------------------------- */
+
+
 .header-container a {
     margin-right: 10px;
     /* Space after each link */
 }
 
-/* For a more modern look: Adding some hover effects */
+/* ------------------------------------- For a more modern look: Adding some hover effects  -------------------------------- */
+
 .header-container a:hover {
-    color: #007BFF;
+    color: #070753;
     /* Change text color on hover */
-    border-right-color: #007BFF;
+    border-right-color: #070753;
     /* Change line color on hover */
 }
 
-/* Image container */
+/* ----------------------------------------------- Image container  ------------------------------------------------------- */
 
 .image-container {
     position: relative;
@@ -120,7 +126,8 @@ header {
     /* Maintain aspect ratio */
 }
 
-/* Quote overlay */
+/* ----------------------------------------------- Quote overlay  ------------------------------------------------------- */
+
 .quote-overlay {
     position: absolute;
     top: 50%;
@@ -147,13 +154,14 @@ header {
     line-height: 1.5;
 }
 
-/* Content below the image */
+/* ----------------------------------------------- Content below the image  ----------------------------------------------- */
 .content {
     padding: 20px;
     background-color: #f0f0f0;
 }
 
-/* Card Feature Styling */
+/* ----------------------------------------------- Card Feature Styling  -------------------------------------------------- */
+
 .card-feature {
     position: absolute;
     top: 250px;
@@ -194,7 +202,7 @@ header {
 }
 
 .card-feature a {
-    color: rgb(10, 10, 84);
+    color: #070753;
     /* Blue text */
     text-decoration: none;
     font-weight: bold;
@@ -207,7 +215,8 @@ header {
     /* Underline on hover */
 }
 
-/* Card container */
+/* ----------------------------------------------- Card container  -------------------------------------------------- */
+
 .card-container {
     display: flex;
     justify-content: space-around;
@@ -236,7 +245,7 @@ header {
 .card h2 {
     font-size: 18px;
     margin: 10px 0;
-    color: rgba(7, 7, 83, 0.889);
+    color: #070753;
 }
 
 .card p {
@@ -255,7 +264,46 @@ header {
     text-decoration: underline;
 }
 
-/* Responsive design for tablets and mobile devices */
+/* ----------------------------------------------- Small Boxes Container  -------------------------------------------------- */
+
+.small-boxes-container {
+    overflow: hidden;
+    position: relative;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.small-boxes {
+    display: flex;
+    white-space: wrap;
+    transition: transform 0.3s ease;
+}
+
+.small-box {
+    background-color: #d0cccc;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 130px;
+    /* Adjust width as needed */
+    height: 130px;
+    /* Adjust height as needed */
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.small-box a {
+    text-decoration: none;
+    color: #070753;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* ---------------------------------- Responsive design for tablets and mobile devices  ----------------------------------- */
+
 @media (max-width: 768px) {
 
     .header-banking,
