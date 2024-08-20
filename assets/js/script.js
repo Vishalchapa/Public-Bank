@@ -66,4 +66,32 @@ document.addEventListener('DOMContentLoaded', function () {
 
         autoScroll(); // Start auto-scrolling
     });
+
+    // Accordion
+    document.addEventListener('DOMContentLoaded', function () {
+        const accordionHeaders = document.querySelectorAll('.accordion-header');
+
+        accordionHeaders.forEach(header => {
+            header.addEventListener('click', function () {
+                const content = this.nextElementSibling;
+
+                // Toggle the accordion content
+                if (content.style.display === 'block') {
+                    content.style.display = 'none';
+                    this.querySelector('.accordion-icon').textContent = '+';
+                } else {
+                    // Close other open accordion items
+                    document.querySelectorAll('.accordion-content').forEach(item => {
+                        item.style.display = 'none';
+                    });
+                    document.querySelectorAll('.accordion-icon').forEach(icon => {
+                        icon.textContent = '+';
+                    });
+
+                    content.style.display = 'block';
+                    this.querySelector('.accordion-icon').textContent = '-';
+                }
+            });
+        });
+    });
 });
