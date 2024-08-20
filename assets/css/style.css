@@ -43,7 +43,7 @@ header {
     margin-bottom: 4px;
     /* Space below banking buttons */
     padding-top: 4px;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #190a0a;
     /* Separator line */
 }
 
@@ -60,7 +60,7 @@ header {
     justify-content: space-around;
     align-items: center;
     padding-top: 10px;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #190a0a;
     /* Separator line */
 }
 
@@ -75,7 +75,15 @@ header {
     width: 200px;
     padding: 2px;
     font-size: 14px;
-    border: 1px solid #ccc;
+    border: 1px solid #190a0a
+    
+    
+    
+    
+    
+    
+    
+    ;
     border-radius: 4px;
 }
 
