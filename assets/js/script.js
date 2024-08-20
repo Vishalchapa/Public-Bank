@@ -94,4 +94,32 @@ document.addEventListener('DOMContentLoaded', function () {
             });
         });
     });
+
+    document.addEventListener('scroll', function () {
+        let sections = document.querySelectorAll('.footer-column h3');
+        let scrollPosition = document.documentElement.scrollTop || document.body.scrollTop;
+
+        sections.forEach((section) => {
+            let sectionOffset = section.offsetTop;
+            let sectionHeight = section.offsetHeight;
+
+            if (scrollPosition >= sectionOffset && scrollPosition < sectionOffset + sectionHeight) {
+                section.style.color = '#0056b3'; // Highlight color
+            } else {
+                section.style.color = '#333'; // Default color
+            }
+        });
+    });
+
+
+    document.querySelectorAll('.footer-column a').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+
+
 });
