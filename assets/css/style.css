@@ -75,37 +75,34 @@ header {
     width: 200px;
     padding: 2px;
     font-size: 14px;
-    border: 1px solid #190a0a
-    
-    
-    
-    
-    
-    
-    
-    ;
+    border: 1px solid #190a0a;
     border-radius: 4px;
 }
 
 /* Adding lines between buttons */
 .header-container a:not(:last-child) {
-    border-right: 1px solid #ccc; /* Line color and thickness */
+    border-right: 1px solid #ccc;
+    /* Line color and thickness */
 }
 
 /* Optional: Adjust line height */
 .header-container a {
-    line-height: 1.5; /* Adjust as needed */
+    line-height: 1.5;
+    /* Adjust as needed */
 }
 
 /* Optional: Padding to create space for the lines */
 .header-container a {
-    margin-right: 10px; /* Space after each link */
+    margin-right: 10px;
+    /* Space after each link */
 }
 
 /* For a more modern look: Adding some hover effects */
 .header-container a:hover {
-    color: #007BFF; /* Change text color on hover */
-    border-right-color: #007BFF; /* Change line color on hover */
+    color: #007BFF;
+    /* Change text color on hover */
+    border-right-color: #007BFF;
+    /* Change line color on hover */
 }
 
 /* Image container */
@@ -208,6 +205,54 @@ header {
 .card-feature a:hover {
     text-decoration: underline;
     /* Underline on hover */
+}
+
+/* Card container */
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+    /* Adjust the width as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card h2 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: rgba(7, 7, 83, 0.889);
+}
+
+.card p {
+    font-size: 14px;
+    color: #666;
+}
+
+.card a {
+    color: #072c55;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 1px;
+}
+
+.card a:hover {
+    text-decoration: underline;
 }
 
 /* Responsive design for tablets and mobile devices */
