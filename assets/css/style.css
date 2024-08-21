@@ -1,8 +1,8 @@
-/* --------------------------------------------------------- Font-Family ----------------------------------------------------------- */
+/* -------------------------------------------------------------- Font-Family -- */
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-/* --------------------------------------------------------- Body ----------------------------------------------------------- */
+/* -------------------------------------------------------------- Body -- */
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -11,12 +11,13 @@ body {
     padding: 0;
 }
 
-/* --------------------------------------------------------- Header ----------------------------------------------------------- */
+/* -------------------------------------------------------------- Header -- */
 
 header {
     background-color: #c1c9d7;
-    /* Light gray background */
+    /* -------------------------------------------------------------- Light gray background -- */
     padding: 20px;
+    color: #070753;
 }
 
 .header-container {
@@ -33,7 +34,7 @@ header {
 
 .header-logo img {
     max-width: 180px;
-    /* Adjust logo size */
+    /* -------------------------------------------------------------- Adjust logo size -- */
     max-height: 180px;
 }
 
@@ -41,16 +42,16 @@ header {
     display: flex;
     justify-content: space-around;
     margin-bottom: 4px;
-    /* Space below banking buttons */
+    /* -------------------------------------------------------------- Space below banking buttons -- */
     padding-top: 4px;
     border-top: 1px solid #190a0a;
-    /* Separator line */
+    /* -------------------------------------------------------------- Separator line -- */
 }
 
-.header-banking a {
+.header-banking span {
     text-decoration: none;
-    color: #464545;
-    /* Blue text */
+    color: #070753;
+    /* -------------------------------------------------------------- Blue text -- */
     font-size: 16px;
     font-weight: bold;
 }
@@ -61,13 +62,13 @@ header {
     align-items: center;
     padding-top: 10px;
     border-top: 1px solid #190a0a;
-    /* Separator line */
+    /* -------------------------------------------------------------- Separator line -- */
 }
 
-.header-bottom a {
+.header-bottom span {
     text-decoration: none;
-    color: #464545;
-    /* Dark text */
+    color: #070753;
+    /* -------------------------------------------------------------- Dark text -- */
     font-size: 14px;
     font-weight: bold;
     ;
@@ -81,101 +82,101 @@ header {
     border-radius: 4px;
 }
 
-/* -------------------------------------------- Adding lines between buttons --------------------------------------------- */
+/* -------------------------------------------------------------- Adding lines between buttons -- */
 
-.header-container a:not(:last-child) {
+.header-container span:not(:last-child) {
     border-right: 1px solid #ccc;
-    /* Line color and thickness */
+    /* -------------------------------------------------------------- Line color and thickness -- */
 }
 
-/* Optional: Adjust line height */
-.header-container a {
+/* -------------------------------------------------------------- Optional: Adjust line height -- */
+.header-container span {
     line-height: 1.5;
-    /* Adjust as needed */
+    /* -------------------------------------------------------------- Adjust as needed -- */
 }
 
-/* ------------------------------------- Optional: Padding to create space for the lines  -------------------------------- */
+/* -------------------------------------------------------------- Optional: Padding to create space for the lines  -- */
 
 
-.header-container a {
+.header-container span {
     margin-right: 10px;
-    /* Space after each link */
+    /* -------------------------------------------------------------- Space after each link -- */
 }
 
-/* ------------------------------------- For a more modern look: Adding some hover effects  -------------------------------- */
+/* -------------------------------------------------------------- For a more modern look: Adding some hover effects  -- */
 
-.header-container a:hover {
+.header-container span:hover {
     color: #070753;
-    /* Change text color on hover */
+    /* -------------------------------------------------------------- Change text color on hover -- */
     border-right-color: #070753;
-    /* Change line color on hover */
+    /* -------------------------------------------------------------- Change line color on hover -- */
 }
 
-/* ----------------------------------------------- Image container  ------------------------------------------------------- */
+/* -------------------------------------------------------------- Image container  -- */
 
 .image-container {
     position: relative;
     width: 100%;
     max-width: 100%;
-    /* Adjust max-width as needed */
+    /* -------------------------------------------------------------- Adjust max-width as needed -- */
 }
 
 .image-container img {
     width: 100%;
     height: auto;
-    /* Maintain aspect ratio */
+    /* -------------------------------------------------------------- Maintain aspect ratio -- */
 }
 
-/* ----------------------------------------------- Quote overlay  ------------------------------------------------------- */
+/* -------------------------------------------------------------- Quote overlay  -- */
 
 .quote-overlay {
     position: absolute;
     top: 50%;
-    /* Center vertically */
+    /* -------------------------------------------------------------- Center vertically -- */
     left: 50%;
-    /* Center horizontally */
+    /* -------------------------------------------------------------- Center horizontally -- */
     transform: translate(-50%, -50%);
     color: white;
-    /* Text color */
+    /* -------------------------------------------------------------- Text color -- */
     text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
-    /* Semi-transparent background */
+    /* -------------------------------------------------------------- Semi-transparent background -- */
     padding: 20px;
     border-radius: 8px;
-    /* Rounded corners */
+    /* -------------------------------------------------------------- Rounded corners -- */
 }
 
 .quote-overlay p {
     margin: 0;
     font-size: 24px;
-    /* Adjust text size */
+    /* -------------------------------------------------------------- Adjust text size -- */
     font-style: italic;
-    /* Italicize the quote */
+    /* -------------------------------------------------------------- Italicize the quote -- */
     line-height: 1.5;
 }
 
-/* ----------------------------------------------- Content below the image  ----------------------------------------------- */
+/* -------------------------------------------------------------- Content below the image  -- */
 .content {
     padding: 20px;
     background-color: #f0f0f0;
 }
 
-/* ----------------------------------------------- Card Feature Styling  -------------------------------------------------- */
+/* -------------------------------------------------------------- Card Feature Styling  -- */
 
 .card-feature {
     position: absolute;
     top: 250px;
-    /* Position from the top of the image */
+    /* -------------------------------------------------------------- Position from the top of the image -- */
     right: 20px;
-    /* Position from the right edge */
+    /* -------------------------------------------------------------- Position from the right edge -- */
     background-color: #646449;
 
-    /* Yellow background */
+    /* -------------------------------------------------------------- Yellow background -- */
     padding: 15px;
     border-radius: 8px;
-    /* Rounded corners */
+    /* -------------------------------------------------------------- Rounded corners -- */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    /* Subtle shadow */
+    /* -------------------------------------------------------------- Subtle shadow -- */
     align-items: center;
 }
 
@@ -189,7 +190,7 @@ header {
 .card-feature li {
     margin-bottom: 10px;
     align-items: center;
-    /* Space between items */
+    /* -------------------------------------------------------------- Space between items -- */
 }
 
 .card-feature li.per-annum {
@@ -201,21 +202,21 @@ header {
     margin-bottom: 0;
 }
 
-.card-feature a {
+.card-feature span {
     color: #070753;
-    /* Blue text */
+    /* -------------------------------------------------------------- Blue text -- */
     text-decoration: none;
     font-weight: bold;
     display: flex;
     align-items: flex-end;
 }
 
-.card-feature a:hover {
+.card-feature span:hover {
     text-decoration: underline;
-    /* Underline on hover */
+    /* -------------------------------------------------------------- Underline on hover -- */
 }
 
-/* ----------------------------------------------- Card container  -------------------------------------------------- */
+/* -------------------------------------------------------------- Card container  -- */
 
 .card-container {
     display: flex;
@@ -231,7 +232,7 @@ header {
     padding: 20px;
     text-align: center;
     width: 30%;
-    /* Adjust the width as needed */
+    /* -------------------------------------------------------------- Adjust the width as needed -- */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 10px;
 }
@@ -253,19 +254,19 @@ header {
     color: #666;
 }
 
-.card a {
+.card span {
     color: #072c55;
     text-decoration: none;
     font-weight: bold;
     margin-bottom: 1px;
 }
 
-.card a:hover {
+.card span:hover {
     text-decoration: underline;
     color: #0056b3;
 }
 
-/* ----------------------------------------------- Small Boxes Container  -------------------------------------------------- */
+/* -------------------------------------------------------------- Small Boxes Container  -- */
 
 .small-boxes-container {
     overflow: hidden;
@@ -285,9 +286,9 @@ header {
     border: 1px solid #ddd;
     border-radius: 8px;
     width: 130px;
-    /* Adjust width as needed */
+    /* -------------------------------------------------------------- Adjust width as needed -- */
     height: 130px;
-    /* Adjust height as needed */
+    /* -------------------------------------------------------------- Adjust height as needed -- */
     margin-right: 10px;
     display: flex;
     align-items: center;
@@ -296,37 +297,37 @@ header {
     text-align: center;
 }
 
-.small-box a {
+.small-box span {
     text-decoration: none;
     color: #070753;
     font-weight: bold;
     font-size: 14px;
 }
 
-.small-box a:hover {
+.small-box span:hover {
     text-decoration: underline;
     color: #0056b3;
 }
 
-/* Custom CSS for the accordion */
+/* -------------------------------------------------------------- Custom CSS for the accordion -- */
 
-/* Styles for the Accordion Title */
+/* -------------------------------------------------------------- Styles for the Accordion Title -- */
 .accordion-title {
     text-align: right;
-    /* Align text to the right */
+    /* -------------------------------------------------------------- Align text to the right -- */
     margin-right: 60px;
-    /* Match the right margin of the accordion container */
+    /* -------------------------------------------------------------- Match the right margin of the accordion container -- */
     margin-top: 30px;
-    /* Add some space below the title */
+    /* -------------------------------------------------------------- Add some space below the title -- */
 }
 
 .accordion-title h2 {
     font-size: 24px;
     font-weight: bold;
     color: #333;
-    /* Title color */
+    /* -------------------------------------------------------------- Title color -- */
     margin: 0;
-    /* Remove default margin */
+    /* -------------------------------------------------------------- Remove default margin -- */
 }
 
 .accordion-container {
@@ -338,14 +339,14 @@ header {
     margin-bottom: 10px;
     padding-top: 40px;
     padding-bottom: 40px;
-    /* 80px from the right edge */
+    /* -------------------------------------------------------------- 80px from the right edge -- */
     background-color: #b0afd2;
 }
 
 .accordion-item {
     margin-bottom: 15px;
     margin-right: 40px;
-    /* Space between accordions */
+    /* -------------------------------------------------------------- Space between accordions -- */
     border: 1px solid #ddd;
     border-radius: 5px;
 }
@@ -380,7 +381,7 @@ header {
     font-weight: bold;
 }
 
-/* Styles for the Important Notice */
+/* -------------------------------------------------------------- Styles for the Important Notice -- */
 
 .important-notice {
     margin-top: 20px;
@@ -399,7 +400,7 @@ header {
     margin-bottom: 0;
 }
 
-/* General Styles */
+/* -------------------------------------------------------------- General Styles -- */
 footer {
     background-color: #f5f5f5;
     padding: 20px;
@@ -411,7 +412,7 @@ footer {
     margin: 0 auto;
 }
 
-/* Footer Columns */
+/* -------------------------------------------------------------- Footer Columns -- */
 .footer-columns {
     display: flex;
     justify-content: space-between;
@@ -438,16 +439,16 @@ footer {
     margin-bottom: 5px;
 }
 
-.footer-column ul li a {
+.footer-column ul li span {
     text-decoration: none;
     color: #333;
 }
 
-.footer-column ul li a:hover {
+.footer-column ul li span:hover {
     text-decoration: underline;
 }
 
-/* Footer Bottom Bar */
+/* -------------------------------------------------------------- Footer Bottom Bar -- */
 .footer-bottom {
     display: flex;
     justify-content: space-between;
@@ -463,7 +464,18 @@ footer {
 
 .footer-social a:hover {
     color: #0056b3;
-    /* Adjust hover color as needed */
+    /* -------------------------------------------------------------- Adjust hover color as needed -- */
+}
+
+.footer-social span {
+    margin-right: 15px;
+    font-size: 20px;
+    color: #333;
+}
+
+.footer-social span:hover {
+    color: #0056b3;
+    /* -------------------------------------------------------------- Adjust hover color as needed -- */
 }
 
 .footer-contact {
@@ -480,12 +492,12 @@ footer {
 
 .contact-icon:hover {
     color: #0056b3;
-    /* Adjust hover color as needed */
+    /*-------------------------------------------------------------- Adjust hover color as needed -- */
 }
 
 
 
-/* ---------------------------------- Responsive design for tablets and mobile devices  ----------------------------------- */
+/* -------------------------------------------------------------- Responsive design for tablets and mobile devices  -- */
 
 @media (max-width: 768px) {
 
@@ -497,13 +509,13 @@ footer {
 
     .header-top-right a {
         margin: 5px 0;
-        /* Space between links for mobile view */
+        /* -------------------------------------------------------------- Space between links for mobile view -- */
     }
 
     .header-bottom input[type="text"] {
         width: 100%;
         max-width: 100%;
-        /* Full width on small screens */
+        /* -------------------------------------------------------------- Full width on small screens -- */
     }
 
 }
