@@ -17,15 +17,15 @@ function calculateMortgage() {
 
     const monthlyInterestRate = interestRate / 100 / 12;
     const numberOfPayments = loanTerm * 12;
-    const monthlyPayment = 
-        (loanAmount * monthlyInterestRate) / 
+    const monthlyPayment =
+        (loanAmount * monthlyInterestRate) /
         (1 - Math.pow(1 + monthlyInterestRate, -numberOfPayments));
 
     const totalPayment = (monthlyPayment * numberOfPayments).toFixed(2);
     const totalInterest = (totalPayment - loanAmount).toFixed(2);
     const monthlyPaymentFormatted = monthlyPayment.toFixed(2);
 
-    showResult(`Monthly Payment: $${monthlyPaymentFormatted}`, 'success');
+    showResult(`Monthly Payment: £${monthlyPaymentFormatted}`, 'success');
     addToHistory(loanAmount, interestRate, loanTerm, monthlyPaymentFormatted, totalPayment, totalInterest);
 }
 
@@ -37,13 +37,13 @@ function updateLiveResults() {
     if (!isNaN(loanAmount) && !isNaN(interestRate) && !isNaN(loanTerm)) {
         const monthlyInterestRate = interestRate / 100 / 12;
         const numberOfPayments = loanTerm * 12;
-        const monthlyPayment = 
-            (loanAmount * monthlyInterestRate) / 
+        const monthlyPayment =
+            (loanAmount * monthlyInterestRate) /
             (1 - Math.pow(1 + monthlyInterestRate, -numberOfPayments));
 
         const monthlyPaymentFormatted = monthlyPayment.toFixed(2);
         const resultDiv = document.getElementById('result');
-        resultDiv.textContent = `Estimated Monthly Payment: $${monthlyPaymentFormatted}`;
+        resultDiv.textContent = `Estimated Monthly Payment: £${monthlyPaymentFormatted}`;
         resultDiv.style.opacity = 1;
     }
 }
@@ -51,7 +51,7 @@ function updateLiveResults() {
 function showResult(message, status) {
     const resultDiv = document.getElementById('result');
     resultDiv.textContent = message;
-    resultDiv.className = `result ${status}`;
+    resultDiv.className = `result £{status}`;
     resultDiv.style.opacity = 1;
 
     // Show feedback modal
@@ -61,8 +61,8 @@ function showResult(message, status) {
 function addToHistory(loanAmount, interestRate, loanTerm, monthlyPayment, totalPayment, totalInterest) {
     const historyList = document.getElementById('historyList');
     const historyItem = document.createElement('li');
-    historyItem.textContent = 
-        `Loan: $${loanAmount}, Rate: ${interestRate}%, Term: ${loanTerm} years - Monthly: $${monthlyPayment}, Total: $${totalPayment}, Interest: $${totalInterest}`;
+    historyItem.textContent =
+        `Loan: £${loanAmount}, Rate: ${interestRate}%, Term: ${loanTerm} years - Monthly: £${monthlyPayment}, Total: £${totalPayment}, Interest: £${totalInterest}`;
     historyList.appendChild(historyItem);
 }
 
@@ -78,15 +78,15 @@ function showModal(message) {
     const modal = document.getElementById('feedbackModal');
     const modalText = document.getElementById('modalText');
     const closeBtn = document.querySelector('.modal .close');
-    
+
     modalText.textContent = message;
     modal.style.display = 'block';
 
-    closeBtn.onclick = function() {
+    closeBtn.onclick = function () {
         modal.style.display = 'none';
     }
 
-    window.onclick = function(event) {
+    window.onclick = function (event) {
         if (event.target === modal) {
             modal.style.display = 'none';
         }

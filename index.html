@@ -55,14 +55,14 @@
             <p>"Your financial success is our priority."</p>
         </div>
         <!-------------------------------------------------------------- Card Feature -->
-    <div class="card-feature">
-        <ul>
-            <li><span>Interest Rates</span></li>
-            <li class="per-annum">5.01% p.a.</li>
-            <li><span>See Products</span></li>
-            <li><span>APPLY NOW</span></li>
-        </ul>
-    </div>
+        <div class="card-feature">
+            <ul>
+                <li><span>Interest Rates</span></li>
+                <li class="per-annum">5.01% p.a.</li>
+                <li><span>See Products</span></li>
+                <li><span>APPLY NOW</span></li>
+            </ul>
+        </div>
     </div>
 
     <!--------------------------------------------------------------- Card Components -->
@@ -97,41 +97,41 @@
         </div>
     </section>
 
-        <!-------------------------------------------------------------- Mortgage Calculator -->
+    <!-------------------------------------------------------------- Mortgage Calculator -->
 
-        <div class="calculator-container">
-            <h1>Mortgage Calculator</h1>
-            <div class="input-group">
-                <label for="loanAmount">Loan Amount ($):</label>
-                <input type="number" id="loanAmount" placeholder="Enter loan amount">
-                <div class="tooltip" id="loanAmountTooltip">Enter the total amount you plan to borrow.</div>
-            </div>
-            <div class="input-group">
-                <label for="interestRate">Interest Rate (%):</label>
-                <input type="number" id="interestRate" placeholder="Enter interest rate" step="0.01">
-                <div class="tooltip" id="interestRateTooltip">Enter the annual interest rate (in percentage).</div>
-            </div>
-            <div class="input-group">
-                <label for="loanTerm">Loan Term (years):</label>
-                <input type="number" id="loanTerm" placeholder="Enter loan term">
-                <div class="tooltip" id="loanTermTooltip">Enter the number of years you plan to repay the loan.</div>
-            </div>
-            <button id="calculateButton">Calculate</button>
-            <div id="result" class="result"></div>
+    <div class="calculator-container">
+        <h1>Mortgage Calculator</h1>
+        <div class="input-group">
+            <label for="loanAmount">Loan Amount (£):</label>
+            <input type="number" id="loanAmount" placeholder="Enter loan amount">
+            <div class="tooltip" id="loanAmountTooltip">Enter the total amount you plan to borrow.</div>
         </div>
-    
-        <div class="history-container">
-            <h2>Calculation History</h2>
-            <ul id="historyList"></ul>
-            <button id="clearHistoryButton">Clear History</button>
+        <div class="input-group">
+            <label for="interestRate">Interest Rate (%):</label>
+            <input type="number" id="interestRate" placeholder="Enter interest rate" step="0.01">
+            <div class="tooltip" id="interestRateTooltip">Enter the annual interest rate (in percentage).</div>
         </div>
-    
-        <div id="feedbackModal" class="modal">
-            <div class="modal-content">
-                <span class="close">&times;</span>
-                <p id="modalText"></p>
-            </div>
+        <div class="input-group">
+            <label for="loanTerm">Loan Term (years):</label>
+            <input type="number" id="loanTerm" placeholder="Enter loan term">
+            <div class="tooltip" id="loanTermTooltip">Enter the number of years you plan to repay the loan.</div>
         </div>
+        <button id="calculateButton">Calculate</button>
+        <div id="result" class="result"></div>
+    </div>
+
+    <div class="history-container">
+        <h2>Calculation History</h2>
+        <ul id="historyList"></ul>
+        <button id="clearHistoryButton">Clear History</button>
+    </div>
+
+    <div id="feedbackModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="modalText"></p>
+        </div>
+    </div>
 
     <!-------------------------------------------------------------- Small Boxes with Automatic Scrolling -->
     <section class="small-boxes-container">
@@ -317,7 +317,8 @@
                 </div>
 
                 <div class="footer-contact">
-                    <a href="https://www.google.com/maps/place/United+Kingdom/@54.1029601,-15.0064024,5z/data=!3m1!4b1!4m6!3m5!1s0x25a3b1142c791a9:0xc4f8a0433288257a!8m2!3d55.378051!4d-3.435973!16zL20vMDdzc2M?entry=ttu" class="contact-icon" aria-label="Location" target="_blank">
+                    <a href="https://www.google.com/maps/place/United+Kingdom/@54.1029601,-15.0064024,5z/data=!3m1!4b1!4m6!3m5!1s0x25a3b1142c791a9:0xc4f8a0433288257a!8m2!3d55.378051!4d-3.435973!16zL20vMDdzc2M?entry=ttu"
+                        class="contact-icon" aria-label="Location" target="_blank">
                         <i class="fas fa-map-marker-alt"></i>
                     </a>
                     <span class="contact-icon" aria-label="Phone" target="_blank">
