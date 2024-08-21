@@ -172,9 +172,9 @@ header {
 
 .card-feature {
     position: absolute;
-    min-top: 30%;
+    top: 110%;
 /* -------------------------------------------------------------- Center vertically -- */
-    min-left: 80%;
+    left: 20%;
 /* -------------------------------------------------------------- Center horizontally -- */
     transform: translate(20%, 20%);
     color: white;
