@@ -281,6 +281,130 @@ header {
     color: #0056b3;
 }
 
+/* -------------------------------------------------------------- Investment Quiz  */
+
+h3 {
+    text-align: center;
+    color: #070753;
+}
+
+.question {
+    margin-bottom: 20px;
+
+}
+
+.options {
+    margin-top: 10px;
+    color: #c1c9d7;
+    background-color: #c1c9d7;
+}
+
+.option {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #070753;
+    border: 2px solid #ccc;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+    text-align: center;
+}
+
+.option:hover {
+    background-color: #0056b3;
+    border-color: #3399ff;
+}
+
+.correct {
+    background-color: #28a745;
+    border-color: #d4edda;
+}
+
+.incorrect {
+    background-color: #dc3545;
+    border-color: #f8d7da;
+}
+
+.result {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #dff0d8;
+    border: 1px solid #d6e9c6;
+    color: #3c763d;
+    display: none;
+}
+
+.score {
+    margin-top: 20px;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.progress {
+    margin-top: 20px;
+    font-size: 1em;
+    text-align: center;
+    color: #555;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+/* Crackers animation */
+.confetti {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #ffdd57;
+    animation: confetti 4s ease-in-out infinite;
+    opacity: 0;
+}
+
+@keyframes confetti {
+    0% {
+        transform: translateY(0) rotate(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(500px) rotate(720deg);
+        opacity: 0;
+    }
+}
+
+/* Wrong answer modal */
+#wrong-modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    z-index: 1000;
+}
+
+#wrong-modal button {
+    margin-top: 20px;
+    background-color: #dc3545;
+    color: white;
+}
+
 /* -------------------------------------------------------------- Mortgage Calculator  */
 
 .calculator-container {
@@ -759,3 +883,25 @@ footer {
         /* -------------------------------------------------------------- Center cards in the container -- */
     }
 }
+
+        /* -------------------------------------------------------------- Quiz Game -- */
+
+        @media (max-width: 600px) {
+            body {
+                padding: 15px;
+            }
+
+            h3 {
+                font-size: 1.5em;
+            }
+
+            .option {
+                font-size: 0.9em;
+                padding: 8px;
+            }
+
+            button {
+                width: 100%;
+                padding: 12px;
+            }
+        }
