@@ -54,9 +54,7 @@
         <div class="quote-overlay">
             <p>"Your financial success is our priority."</p>
         </div>
-    </div>
-
-    <!-------------------------------------------------------------- Card Feature -->
+        <!-------------------------------------------------------------- Card Feature -->
     <div class="card-feature">
         <ul>
             <li><span>Interest Rates</span></li>
@@ -64,6 +62,7 @@
             <li><span>See Products</span></li>
             <li><span>APPLY NOW</span></li>
         </ul>
+    </div>
     </div>
 
     <!--------------------------------------------------------------- Card Components -->
@@ -184,6 +183,42 @@
     </div>
     </div>
 
+    <!-------------------------------------------------------------- Mortgage Calculator -->
+
+    <div class="calculator-container">
+        <h1>Mortgage Calculator</h1>
+        <div class="input-group">
+            <label for="loanAmount">Loan Amount ($):</label>
+            <input type="number" id="loanAmount" placeholder="Enter loan amount">
+            <div class="tooltip" id="loanAmountTooltip">Enter the total amount you plan to borrow.</div>
+        </div>
+        <div class="input-group">
+            <label for="interestRate">Interest Rate (%):</label>
+            <input type="number" id="interestRate" placeholder="Enter interest rate" step="0.01">
+            <div class="tooltip" id="interestRateTooltip">Enter the annual interest rate (in percentage).</div>
+        </div>
+        <div class="input-group">
+            <label for="loanTerm">Loan Term (years):</label>
+            <input type="number" id="loanTerm" placeholder="Enter loan term">
+            <div class="tooltip" id="loanTermTooltip">Enter the number of years you plan to repay the loan.</div>
+        </div>
+        <button id="calculateButton">Calculate</button>
+        <div id="result" class="result"></div>
+    </div>
+
+    <div class="history-container">
+        <h2>Calculation History</h2>
+        <ul id="historyList"></ul>
+        <button id="clearHistoryButton">Clear History</button>
+    </div>
+
+    <div id="feedbackModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="modalText"></p>
+        </div>
+    </div>
+
     <!-------------------------------------------------------------- Important Notice Section -->
     <div class="important-notice alert alert-warning">
         <h4 class="alert-heading">Important: Silverstone never ask for your id/ password/pin no through
@@ -243,15 +278,15 @@
                     <h3>Legal</h3>
                     <ul>
                         <li>
-                            <span">Legal information</span>
+                            <span>Legal information</span>
                         </li>
                         <li><span>Terms and conditions</span></li>
                         <li><span>Privacy</span></li>
                         <li>
-                            <span">Cookies</span>
+                            <span>Cookies</span>
                         </li>
                         <li>
-                            <span">Sitemap</span>
+                            <span>Sitemap</span>
                         </li>
                         <li><span>Financial Services Compensation Scheme</span></li>
                     </ul>
@@ -303,6 +338,7 @@
 
 
     <script src="./assets/js/script.js"></script>
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>
