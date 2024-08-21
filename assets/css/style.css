@@ -276,6 +276,173 @@ header {
     color: #0056b3;
 }
 
+/* -------------------------------------------------------------- Mortgage Calculator  */
+
+.calculator-container {
+    background-color: #c1c9d7;
+    padding: 20px;
+    border-radius: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    text-align: center;
+    position: relative;
+    box-sizing: border-box;
+    
+}
+
+.calculator-container h1 {
+    margin-bottom: 20px;
+    color: #072c55;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 0px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+    box-sizing: border-box;
+}
+
+.input-group input:focus {
+    border-color: #072c55;
+}
+
+.tooltip {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #c1c9d7;
+    color: #072c55;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    width: 100%;
+    max-width: 250px;
+    text-align: left;
+    z-index: 10;
+    box-sizing: border-box;
+}
+
+.input-group:hover .tooltip {
+    display: block;
+    background-color: #0056b3;
+}
+
+button {
+    background-color: #072c55;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.result.success {
+    color: #4CAF50;
+}
+
+.result.error {
+    color: #f44336;
+}
+
+.history-container {
+    border-top: 1px solid #190a0a;
+    margin-top: 0px;
+    margin-bottom: 1px;
+    width: 100%;
+    text-align: center;
+    background-color: #c1c9d7;
+}
+
+.history-container h2 {
+    margin-bottom: 10px;
+    color: #070753;
+}
+
+#historyList {
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+}
+
+#historyList li {
+    background-color: #072c55;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#clearHistoryButton {
+    margin-top: 10px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #070753;
+    transition: opacity 0.5s;
+}
+
+.modal-content {
+    background-color: #072c55;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #070753;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 10px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.close {
+    color: #ccc;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #072c55;
+    text-decoration: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+    background-color: #0056b3;
+}
+
 /* -------------------------------------------------------------- Small Boxes Container  -- */
 
 .small-boxes-container {
@@ -284,6 +451,8 @@ header {
     padding: 20px;
     background-color: #c1c9d7;
     margin-bottom: 0;
+    border-top: 1px solid #190a0a;
+
 }
 
 .small-boxes {
@@ -299,7 +468,7 @@ header {
 
 .small-box {
     background-color: #d0cccc;
-    border: 1px solid #ddd;
+    border: 1px solid #070753;
     border-radius: 8px;
     width: 130px;
     /* -------------------------------------------------------------- Adjust width as needed -- */
@@ -395,165 +564,6 @@ header {
 .accordion-icon {
     font-size: 20px;
     font-weight: bold;
-}
-
-/* -------------------------------------------------------------- Mortgage Calculator  */
-
-.calculator-container {
-    background-color: #c1c9d7;
-    padding: 20px;
-    border-radius: 0px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    text-align: center;
-    position: relative;
-    box-sizing: border-box;
-}
-
-.calculator-container h1 {
-    margin-bottom: 20px;
-}
-
-.input-group {
-    position: relative;
-    margin-bottom: 15px;
-}
-
-.input-group label {
-    display: block;
-    margin-bottom: 10px;
-}
-
-.input-group input {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    transition: border-color 0.3s;
-    box-sizing: border-box;
-}
-
-.input-group input:focus {
-    border-color: #4CAF50;
-}
-
-.tooltip {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: #c1c9d7;
-    color: #fff;
-    padding: 5px;
-    border-radius: 5px;
-    font-size: 12px;
-    width: 100%;
-    max-width: 250px;
-    text-align: left;
-    z-index: 10;
-    box-sizing: border-box;
-}
-
-.input-group:hover .tooltip {
-    display: block;
-}
-
-button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-button:hover {
-    background-color: #45a049;
-}
-
-.result {
-    margin-top: 20px;
-    font-size: 18px;
-    font-weight: bold;
-    opacity: 0;
-    transition: opacity 0.5s;
-}
-
-.result.success {
-    color: #4CAF50;
-}
-
-.result.error {
-    color: #f44336;
-}
-
-.history-container {
-    margin-top: 30px;
-    width: 100%;
-    max-width: 400px;
-    text-align: center;
-}
-
-.history-container h2 {
-    margin-bottom: 10px;
-}
-
-#historyList {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-#historyList li {
-    background-color: #eee;
-    margin-bottom: 5px;
-    padding: 5px;
-    border-radius: 5px;
-}
-
-#clearHistoryButton {
-    margin-top: 10px;
-}
-
-.modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgba(0,0,0,0.4);
-    transition: opacity 0.5s;
-}
-
-.modal-content {
-    background-color: #fefefe;
-    margin: 15% auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
-    max-width: 500px;
-    border-radius: 10px;
-    position: relative;
-    box-sizing: border-box;
-}
-
-.close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-    margin-bottom: 0;
 }
 
 /* -------------------------------------------------------------- Styles for the Important Notice -- */
