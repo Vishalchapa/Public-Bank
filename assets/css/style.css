@@ -102,7 +102,7 @@ header {
     /* -------------------------------------------------------------- Adjust as needed -- */
 }
 
-/* -------------------------------------------------------------- Optional: Padding to create space for the lines  -- */
+/* -------------------------------------------------------------- Optional: Padding to create space for the lines -- */
 
 
 .header-container span {
@@ -110,7 +110,7 @@ header {
     /* -------------------------------------------------------------- Space after each link -- */
 }
 
-/* -------------------------------------------------------------- For a more modern look: Adding some hover effects  -- */
+/* -------------------------------------------------------------- For a more modern look: Adding some hover effects -- */
 
 .header-container span:hover {
     color: #0056b3;
@@ -120,7 +120,7 @@ header {
     /* -------------------------------------------------------------- Change line color on hover -- */
 }
 
-/* -------------------------------------------------------------- Image container  -- */
+/* -------------------------------------------------------------- Image container -- */
 
 .image-container {
     position: relative;
@@ -135,7 +135,7 @@ header {
     /* -------------------------------------------------------------- Maintain aspect ratio -- */
 }
 
-/* -------------------------------------------------------------- Quote overlay  -- */
+/* -------------------------------------------------------------- Quote overlay -- */
 
 .quote-overlay {
     position: absolute;
@@ -232,10 +232,10 @@ header {
 .card-container {
     display: flex;
     flex-wrap: wrap;
-    /* Allows the cards to wrap onto the next line if there’s not enough space */
+    /* -------------------------------------------------------------- Allows the cards to wrap onto the next line if there’s not enough space -- */
     justify-content: space-around;
     padding: 5%;
-    /* Use a percentage to ensure padding scales with screen size */
+    /* -------------------------------------------------------------- Use a percentage to ensure padding scales with screen size -- */
     background-color: #c1c9d7;
     margin-top: 0px;
 }
@@ -434,7 +434,6 @@ button:hover {
     transition: opacity 0.5s;
 }
 
-/* #070753 */
 .modal-content {
     background-color: #072c55;
     margin: 15% auto;
@@ -731,32 +730,32 @@ footer {
 
 }
 
-/* Media query for tablets and smaller devices */
+/* -------------------------------------------------------------- Media query for tablets and smaller devices -- */
 @media (max-width: 768px) {
     .card-container {
         padding: 10px;
-        /* Less padding on smaller screens */
+        /* -------------------------------------------------------------- Less padding on smaller screens -- */
     }
 
     .card-container {
         flex-direction: column;
-        /* Stack cards vertically on smaller screens */
+        /* -------------------------------------------------------------- Stack cards vertically on smaller screens -- */
         align-items: center;
-        /* Center cards in the container */
+        /* -------------------------------------------------------------- Center cards in the container -- */
     }
 }
 
-/* Media query for mobile devices */
+/* -------------------------------------------------------------- Media query for mobile devices -- */
 @media (max-width: 480px) {
     .card-container {
         padding: 5px;
-        /* Minimal padding on very small screens */
+        /* -------------------------------------------------------------- Minimal padding on very small screens -- */
     }
 
     .card-container {
         flex-direction: column;
-        /* Stack cards vertically */
+        /* -------------------------------------------------------------- Stack cards vertically -- */
         align-items: center;
-        /* Center cards in the container */
+        /* -------------------------------------------------------------- Center cards in the container -- */
     }
 }

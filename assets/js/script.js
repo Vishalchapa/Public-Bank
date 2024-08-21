@@ -1,3 +1,5 @@
+// -------------------------------------------------------------- Mortgagae Calculator --------------------------------------------------------------
+
 document.getElementById('calculateButton').addEventListener('click', calculateMortgage);
 document.getElementById('clearHistoryButton').addEventListener('click', clearHistory);
 
@@ -54,7 +56,7 @@ function showResult(message, status) {
     resultDiv.className = `result £{status}`;
     resultDiv.style.opacity = 1;
 
-    // Show feedback modal
+    // -------------------------------------------------------------- Show feedback modal --------------------------------------------------------------
     showModal(message);
 }
 
@@ -93,7 +95,7 @@ function showModal(message) {
     }
 }
 
-// Initialize event listeners for tooltips
+// -------------------------------------------------------------- Initialize event listeners for tooltips --------------------------------------------------------------
 document.querySelectorAll('.input-group').forEach(group => {
     group.addEventListener('mouseover', () => {
         const tooltip = group.querySelector('.tooltip');
