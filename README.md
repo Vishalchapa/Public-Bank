@@ -124,55 +124,13 @@ Other Services:
 Footer:
 <img src="./assets/images/slide 8.png">
 
-Clone the Repository:
-bash
-Copy code
-git clone https://github.com/your-username/silverstone-bank.git
-Navigate to the Project Directory:
-bash
-Copy code
-cd silverstone-bank
-Install Dependencies:
-Copy code
-npm install
-Start the Development Server:
-sql
-Copy code
-npm start
-The website should now be running locally on http://localhost:3000.
-
-Usage
-After installing the project, you can access the various features of the Silverstone Bank website. The platform allows users to explore different banking services, calculate mortgage payments, apply for credit cards, and more.
-
-Key Functionalities:
-Interactive Calculator: Use the Mortgage Calculator to get an estimate of your monthly payments.
-Explore Services: Navigate through the different banking services offered by Silverstone Bank.
-Apply for Products: Use the online forms to apply for banking products like credit cards and loans.
-Contributing
-We welcome contributions to the Silverstone Bank project! To contribute:
-
-Fork the repository.
-Create a new branch:
-bash
-Copy code
-git checkout -b feature/your-feature-name
-Make your changes and commit them:
-sql
-Copy code
-git commit -m "Add your message here"
-Push your changes:
-bash
-Copy code
-git push origin feature/your-feature-name
-Submit a pull request.
-We’ll review your pull request and merge it if everything looks good.
+The website should now be running locally on https://vishalchapa.github.io/Silverstone/.
 
 License
 This project is licensed under the Code Institute.
 
+
 Contact
 For any questions or support, feel free to contact us: chapavishal3@gmail.com
 
-Phone: +123456789
-Email: info-cs@silverstone.co.uk
 Thank you for checking out the Silverstone Bank project! We hope you find this repository useful and informative. Happy coding!
