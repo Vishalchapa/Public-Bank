@@ -475,6 +475,10 @@ button:hover {
 
 /* -------------------------------------------------------------- Small Boxes Container  -- */
 
+.small-boxes-container h4 {
+    color: #070753;
+}
+
 .small-boxes-container {
     overflow: hidden;
     position: relative;
