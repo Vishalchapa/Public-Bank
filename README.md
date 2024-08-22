@@ -1,131 +1,168 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+SILVERSTONE BANK Project
+Welcome to the Silverstone Bank project! This repository contains the complete source code and assets for the Silverstone Bank website. Below, you’ll find detailed information about the project, its features, and how to navigate through the codebase. You can also view screenshots, wireframes, and other resources that will give you a comprehensive understanding of the project.
 
-Welcome Vishal Chandra,
+Table of Contents
+Project Overview
+Features
+Homepage
+Interest Rates
+Trading Offers
+Strategic Training Unit
+Silverstone Credit Card
+Mortgage Calculator
+Other Services
+Wireframes
+Screenshots
+Installation
+Usage
+Contributing
+License
+Contact
+Project Overview
+Silverstone Bank is a comprehensive banking project that showcases a wide range of financial services, including personal and business banking, international banking, investments, loans, and insurance products. This project aims to provide users with an intuitive and user-friendly interface to manage their finances efficiently.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+The website is designed to cater to different user needs, from individual banking services to corporate financial solutions. With a focus on security, ease of use, and accessibility, Silverstone Bank ensures that users have a seamless banking experience.
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+Features
+Homepage
+The homepage is designed to give users quick access to the most important features and services that Silverstone Bank offers. It includes an introductory message emphasizing the bank’s commitment to the financial success of its customers.
 
-## Gitpod Reminders
+<img src="./assets/images/slide1.png">
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Features:
 
-`python3 -m http.server`
+Bank Image: A prominent banner that highlights Silverstone Bank's core message: "Your financial success is our priority."
+Quick Links: Direct access to various banking services like personal, business, and international banking.
+Contact Information: Easy access to customer support through phone and email.
 
-A blue button should appear to click: _Make Public_,
+Interest Rates
+This section provides up-to-date information on the interest rates offered by Silverstone Bank. It is crucial for users looking to make informed decisions about loans, savings, and investments.
 
-Another blue button should appear to click: _Open Browser_.
+Features:
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+Current Interest Rates: Displays the latest interest rates for various financial products.
+Product Links: Direct links to explore related products in detail.
 
-A blue button should appear to click: _Make Public_,
+Trading Offers
+The Trading Offers section highlights exclusive trading opportunities provided by Silverstone Bank. This area is designed to attract both novice and experienced traders by offering competitive rates and advanced tools.
 
-Another blue button should appear to click: _Open Browser_.
+Features:
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+Exclusive Offers: Details about current trading promotions.
+Advanced Tools: Access to cutting-edge trading resources.
 
-To log into the Heroku toolbelt CLI:
+Strategic Training Unit
+Silverstone Bank’s Strategic Training Unit is dedicated to enhancing users' financial skills. It offers a variety of training programs, from workshops to online courses, to help users excel in their financial ventures.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+Features:
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+Training Programs: Information on available workshops and courses.
+Learning Options: Various formats to suit different learning preferences.
 
-### Connecting your Mongo database
+Silverstone Credit Card
+This section provides information about the different credit card products offered by Silverstone Bank. It is tailored to meet the diverse financial needs of customers.
 
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
+Features:
 
-------
+Credit Card Offers: Competitive interest rates and flexible payment options.
+Application Links: Easy access to apply for credit cards online.
 
-## Release History
+Mortgage Calculator
+The Mortgage Calculator is a powerful tool that allows users to estimate their monthly payments for different loan amounts, interest rates, and loan terms.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+Features:
 
-**June 18, 2024,** Add Mongo back into template
+Input Fields: Users can enter loan amount, interest rate, and loan term.
+Calculation Results: Displays monthly payment, total payment, and total interest.
+Calculation History: Keeps a record of past calculations for easy reference.
 
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
+Other Services
+Silverstone Bank offers a range of additional services to meet the varied needs of its customers. This section showcases services such as global market access, mortgages, insurance products, and more.
 
-**May 28 2024:** Fix Mongo and Links installs
+Features:
 
-**April 26 2024:** Update node version to 16
+Service Overview: Brief descriptions of available services.
+Quick Access: Links to detailed pages for each service.
 
-**September 20 2023:** Update Python version to 3.9.17.
+Wireframes
+Below are the wireframes that were created during the initial design phase of the Silverstone Bank project. These wireframes helped in visualizing the layout and structure of the website before development began.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+Wireframe 1: Homepage
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+Wireframe 2: Interest Rates
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+Wireframe 3: Trading Offers
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+Wireframe 4: Strategic Training Unit
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+Wireframe 5: Silverstone Credit Card
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+Wireframe 6: Mortgage Calculator
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+Wireframe 7: Other Services
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+Screenshots
+Below are screenshots of the Silverstone Bank project that showcase the design and functionality of the platform.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+Homepage: 
+Interest Rates: 
+Trading Offers: 
+Strategic Training Unit: 
+Silverstone Credit Card: 
+Mortgage Calculator: 
+Other Services: 
+Installation
+To set up this project locally, follow these steps:
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+Clone the Repository:
+bash
+Copy code
+git clone https://github.com/your-username/silverstone-bank.git
+Navigate to the Project Directory:
+bash
+Copy code
+cd silverstone-bank
+Install Dependencies:
+Copy code
+npm install
+Start the Development Server:
+sql
+Copy code
+npm start
+The website should now be running locally on http://localhost:3000.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+Usage
+After installing the project, you can access the various features of the Silverstone Bank website. The platform allows users to explore different banking services, calculate mortgage payments, apply for credit cards, and more.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+Key Functionalities:
+Interactive Calculator: Use the Mortgage Calculator to get an estimate of your monthly payments.
+Explore Services: Navigate through the different banking services offered by Silverstone Bank.
+Apply for Products: Use the online forms to apply for banking products like credit cards and loans.
+Contributing
+We welcome contributions to the Silverstone Bank project! To contribute:
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+Fork the repository.
+Create a new branch:
+bash
+Copy code
+git checkout -b feature/your-feature-name
+Make your changes and commit them:
+sql
+Copy code
+git commit -m "Add your message here"
+Push your changes:
+bash
+Copy code
+git push origin feature/your-feature-name
+Submit a pull request.
+We’ll review your pull request and merge it if everything looks good.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+License
+This project is licensed under the MIT License. For more details, see the LICENSE file.
 
-------
+Contact
+For any questions or support, feel free to contact us:
 
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+Phone: +123456789
+Email: info-cs@silverstone.co.uk
+Thank you for checking out the Silverstone Bank project! We hope you find this repository useful and informative. Happy coding!
