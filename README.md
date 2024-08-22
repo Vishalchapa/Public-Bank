@@ -126,19 +126,19 @@ Interest Rates:
 <img src="./assets/images/Interest Rates.png">
 <img src="./assets/images/slide2.png">
 Trading Offers: 
-<img src="./assets/images/slide3.png">
+<img src="./assets/images/slide 3.png">
 Strategic Training Unit: 
-<img src="./assets/images/slide4.png">
+<img src="./assets/images/slide 4.png">
 Silverstone Credit Card: 
-<img src="./assets/images/slide5.png">
+<img src="./assets/images/slide 5.png">
 Mortgage Calculator: 
-<img src="./assets/images/slide6.png">
+<img src="./assets/images/slide 6.png">
 DOM manipulations result pop-up with bank logo:
-<img src="./assets/images/slide9.png">
+<img src="./assets/images/slide 9.png">
 Other Services: 
-<img src="./assets/images/slide7.png">
+<img src="./assets/images/slide 7.png">
 Footer:
-<img src="./assets/images/slide8.png">
+<img src="./assets/images/slide 8.png">
 
 Clone the Repository:
 bash
