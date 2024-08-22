@@ -110,8 +110,7 @@ document.querySelectorAll('.input-group').forEach(group => {
 
 // -------------------------------------------------------------- Investment Quiz --------------------------------------------------------------
 
-const quizData = [
-    {
+const quizData = [{
         question: "What is a stock?",
         options: [
             "A type of loan",
@@ -254,7 +253,7 @@ function loadQuestion() {
 }
 
 function checkAnswer(selectedOption, optionElement) {
-    if (answered) return;  // Prevent multiple answers for the same question
+    if (answered) return; // Prevent multiple answers for the same question
     answered = true;
 
     const questionData = quizData[currentQuestion];
@@ -264,10 +263,10 @@ function checkAnswer(selectedOption, optionElement) {
         optionElement.classList.add('correct');
         score++;
         currentQuestion++;
-        setTimeout(loadQuestion, 1500);  // Load next question after a short delay
+        setTimeout(loadQuestion, 1500); // Load next question after a short delay
     } else {
         optionElement.classList.add('incorrect');
-        showModal();  // Show the "Try Again" modal
+        showModal(); // Show the "Try Again" modal
     }
 }
 
@@ -307,7 +306,7 @@ function triggerCrackers() {
 
         setTimeout(() => {
             confetti.remove();
-        }, 4000);  // Remove confetti after animation ends
+        }, 4000); // Remove confetti after animation ends
     }
 }
 
@@ -322,7 +321,7 @@ function showModal() {
 
 function closeModal() {
     wrongModal.style.display = 'none';
-    answered = false;  // Allow the user to try the question again
+    answered = false; // Allow the user to try the question again
 }
 
 loadQuestion();
