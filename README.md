@@ -35,13 +35,19 @@ Bank Image: A prominent banner that highlights Silverstone Bank's core message: 
 Quick Links: Direct access to various banking services like personal, business, and international banking.
 Contact Information: Easy access to customer support through phone and email.
 
+<img src="./assets/images/slide2.png"
+
 Interest Rates
 This section provides up-to-date information on the interest rates offered by Silverstone Bank. It is crucial for users looking to make informed decisions about loans, savings, and investments.
+
+
 
 Features:
 
 Current Interest Rates: Displays the latest interest rates for various financial products.
 Product Links: Direct links to explore related products in detail.
+
+<img src="./assets/images/Interest Rates.png">
 
 Trading Offers
 The Trading Offers section highlights exclusive trading opportunities provided by Silverstone Bank. This area is designed to attract both novice and experienced traders by offering competitive rates and advanced tools.
@@ -51,6 +57,8 @@ Features:
 Exclusive Offers: Details about current trading promotions.
 Advanced Tools: Access to cutting-edge trading resources.
 
+<img src="./assets/images/slide3.png">
+
 Strategic Training Unit
 Silverstone Bank’s Strategic Training Unit is dedicated to enhancing users' financial skills. It offers a variety of training programs, from workshops to online courses, to help users excel in their financial ventures.
 
@@ -59,6 +67,8 @@ Features:
 Training Programs: Information on available workshops and courses.
 Learning Options: Various formats to suit different learning preferences.
 
+<img src="./assets/images/slide4.png">
+
 Silverstone Credit Card
 This section provides information about the different credit card products offered by Silverstone Bank. It is tailored to meet the diverse financial needs of customers.
 
@@ -66,6 +76,8 @@ Features:
 
 Credit Card Offers: Competitive interest rates and flexible payment options.
 Application Links: Easy access to apply for credit cards online.
+
+<img src="./assets/images/slide5.png">
 
 Mortgage Calculator
 The Mortgage Calculator is a powerful tool that allows users to estimate their monthly payments for different loan amounts, interest rates, and loan terms.
@@ -76,6 +88,8 @@ Input Fields: Users can enter loan amount, interest rate, and loan term.
 Calculation Results: Displays monthly payment, total payment, and total interest.
 Calculation History: Keeps a record of past calculations for easy reference.
 
+<img src="./assets/images/slide6.png">
+
 Other Services
 Silverstone Bank offers a range of additional services to meet the varied needs of its customers. This section showcases services such as global market access, mortgages, insurance products, and more.
 
@@ -83,6 +97,8 @@ Features:
 
 Service Overview: Brief descriptions of available services.
 Quick Access: Links to detailed pages for each service.
+
+<img src="./assets/images/slide7.png">
 
 Wireframes
 Below are the wireframes that were created during the initial design phase of the Silverstone Bank project. These wireframes helped in visualizing the layout and structure of the website before development began.
@@ -105,14 +121,24 @@ Screenshots
 Below are screenshots of the Silverstone Bank project that showcase the design and functionality of the platform.
 
 Homepage: 
+<img src="./assets/images/slide1.png">
 Interest Rates: 
+<img src="./assets/images/Interest Rates.png">
+<img src="./assets/images/slide2.png">
 Trading Offers: 
+<img src="./assets/images/slide3.png">
 Strategic Training Unit: 
+<img src="./assets/images/slide4.png">
 Silverstone Credit Card: 
+<img src="./assets/images/slide5.png">
 Mortgage Calculator: 
+<img src="./assets/images/slide6.png">
+DOM manipulations result pop-up with bank logo:
+<img src="./assets/images/slide9.png">
 Other Services: 
-Installation
-To set up this project locally, follow these steps:
+<img src="./assets/images/slide7.png">
+Footer:
+<img src="./assets/images/slide8.png">
 
 Clone the Repository:
 bash
@@ -158,10 +184,10 @@ Submit a pull request.
 We’ll review your pull request and merge it if everything looks good.
 
 License
-This project is licensed under the MIT License. For more details, see the LICENSE file.
+This project is licensed under the Code Institute.
 
 Contact
-For any questions or support, feel free to contact us:
+For any questions or support, feel free to contact us: chapavishal3@gmail.com
 
 Phone: +123456789
 Email: info-cs@silverstone.co.uk
