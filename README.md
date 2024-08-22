@@ -87,19 +87,21 @@ Quick Access: Links to detailed pages for each service.
 Wireframes
 Below are the wireframes that were created during the initial design phase of the Silverstone Bank project. These wireframes helped in visualizing the layout and structure of the website before development began.
 
-Wireframe 1: Homepage
+Wireframe 1: 
+<img src="./assets/images/Wireframe 1.png">
 
-Wireframe 2: Interest Rates
 
-Wireframe 3: Trading Offers
+Wireframe 2: 
+<img src="./assets/images/Wireframe 2.png">
 
-Wireframe 4: Strategic Training Unit
 
-Wireframe 5: Silverstone Credit Card
+Wireframe 3: 
+<img src="./assets/images/Wireframe 3.png">
 
-Wireframe 6: Mortgage Calculator
 
-Wireframe 7: Other Services
+Wireframe 4: 
+<img src="./assets/images/Wireframe 4.png">
+
 
 Screenshots
 Below are screenshots of the Silverstone Bank project that showcase the design and functionality of the platform.
