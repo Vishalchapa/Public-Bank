@@ -209,7 +209,7 @@ header {
 
 .card-feature li {
     margin-bottom: 10px;
-    align-items: left;
+    text-align: left;
     /* -------------------------------------------------------------- Space between items -- */
 }
 
@@ -255,7 +255,7 @@ header {
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 20px;
-    text-align: inline;
+    text-align: left;
     min-width: 8%;
     /* -------------------------------------------------------------- Adjust the width as needed -- */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
