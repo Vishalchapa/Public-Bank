@@ -36,7 +36,7 @@ header {
     gap: 5px;
     margin-bottom: 5px;
     border-top: 1px solid #190a0a;
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .header-logo img {
@@ -291,148 +291,6 @@ header {
     color: #0056b3;
 }
 
-/* -------------------------------------------------------------- Investment Quiz  */
-
-h3 {
-    text-align: center;
-    color: #070753;
-    border-top: 1px solid #190a0a;
-    border-left: 1px solid #190a0a;
-    border-right: 1px solid #190a0a;
-
-}
-
-.question {
-    margin-bottom: 20px;
-    border-bottom: 1px solid #190a0a;
-    border-left: 1px solid #190a0a;
-    border-right: 1px solid #190a0a;
-}
-
-.options {
-    margin-top: 10px;
-    color: #c1c9d7;
-    background-color: #c1c9d7;
-    border-left: 1px solid #190a0a;
-    border-right: 1px solid #190a0a;
-
-}
-
-.option {
-    display: block;
-    margin: 10px 0;
-    padding: 10px;
-    background-color: #070753;
-    border: 2px solid #ccc;
-    border-radius: 2px;
-    cursor: pointer;
-    transition: background-color 0.3s, border-color 0.3s;
-    text-align: center;
-}
-
-.option:hover {
-    background-color: #0056b3;
-    border-color: #3399ff;
-}
-
-.correct {
-    background-color: #28a745;
-    border-color: #d4edda;
-}
-
-.incorrect {
-    background-color: #dc3545;
-    border-color: #f8d7da;
-}
-
-.result {
-    margin-top: 20px;
-    padding: 15px;
-    background-color: #dff0d8;
-    border: 1px solid #d6e9c6;
-    color: #3c763d;
-    display: none;
-}
-
-.score {
-    margin-top: 20px;
-    font-size: 1.2em;
-    text-align: center;
-    color: #070753;
-}
-
-.progress {
-    margin-top: 20px;
-    font-size: 1em;
-    text-align: center;
-    color: #070753;
-}
-
-button {
-    padding: 10px 20px;
-    font-size: 1em;
-    cursor: pointer;
-    background-color: #5cb85c;
-    color: #070753;
-    border: none;
-    border-radius: 5px;
-    margin-top: 20px;
-}
-
-button:hover {
-    background-color: #0056b3;
-}
-
-/* -------------------------------------------------------------- Crackers animation -- */
-.confetti {
-    position: relative;
-    width: 80px;
-    height: 100px;
-    background-color: #ffdd57;
-    animation: confetti 4s ease-in-out infinite;
-    opacity: 3;
-}
-
-@keyframes confetti {
-    1% {
-        transform: translateY(10) rotate(20);
-        opacity: 1;
-    }
-
-    100% {
-        transform: translateY(500px) rotate(720deg);
-        opacity: 3;
-    }
-}
-
-/* -------------------------------------------------------------- Wrong answer modal -- */
-
-#wrong-modal {
-    display: none;
-    position: fixed;
-    top: 30%;
-    left: 60%;
-    transform: translate(-60%, -50%);
-    background-color: white;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    z-index: 900;
-}
-
-#wrong-modal button {
-    margin-top: 20px;
-    background-color: #070753;
-    color: #c1c9d7;
-}
-
-#wrong-modal:hover button {
-    margin-top: 20px;
-    background-color: #070753;
-    color: #0056b3;
-}
-
 /* -------------------------------------------------------------- Mortgage Calculator  */
 
 .calculator-container {
@@ -478,8 +336,7 @@ button:hover {
     border-bottom: 1px solid #190a0a;
     border-left: 1px solid #190a0a;
     border-right: 1px solid #190a0a;
-
-
+    font-size: 18px;
 }
 
 .input-group input:focus {
@@ -495,7 +352,7 @@ button:hover {
     color: #072c55;
     padding: 5px;
     border-radius: 5px;
-    font-size: 12px;
+    font-size: 11px;
     width: 100%;
     max-width: 350px;
     text-align: left;
